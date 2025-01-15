@@ -1,10 +1,72 @@
-body{
-    background-color: black;
-    color:white
+body {
+  background-color: black;
+  color: white;
+  margin: 10px;
 }
-.intro{
-    color: aqua;
+header {
+  padding: 10px;
 }
-.contact,h1{
-    text-align: center;
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.banner-text h1 {
+  color: aqua;
+  font-weight: bold;
+}
+.banner-text p {
+  font-size: larger;
+}
+.contact h1 {
+  text-align: center;
+}
+.education p {
+  background-color: grey;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 2px;
+  font-size: large;
+  font-weight: bold;
+}
+.education-text h1 {
+  color: aqua;
+  font-weight: bolder;
+  text-align: center;
+}
+.education-text p {
+  font-size: x-large;
+  font-weight: 700;
+}
+.project-details {
+  font-weight: 500;
+  font-size: larger;
+}
+.project {
+  margin-left: 20px;
+}
+.project p {
+  background-color: grey;
+  border-radius: 8px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: medium;
+}
+.form-container {
+  width: 600px;
+  padding: 10px;
+  margin: 10px;
+}
+.contact {
+  border: 2px solid grey;
+  margin-top: 50px;
+}
+.footer {
+  margin: 50px;
+  align-items: center;
+  text-align: center;
 }
