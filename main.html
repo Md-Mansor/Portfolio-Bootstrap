@@ -12,17 +12,18 @@
 <body>
     <!-- navbar -->
     <header class="container">
-        <div class="d-flex justify-content-evenly align-items-center">
-            <div>
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-none d-sm-block">
                 <img src="icons/logo.png" alt="Logo" style="width: 120px; height: 120px;">
             </div>
-            <ul class="navList">
-                <li class="list">Home</li>
-                <li class="">Portfolio</li>
-                <li class="">Skill</li>
-                <li class="">About</li>
+
+            <ul class="navList d-flex list-unstyled mb-0">
+                <li class="list px-3">Home</li>
+                <li class="px-3">Portfolio</li>
+                <li class="px-3">Skill</li>
+                <li class="px-3">About</li>
                 <li>
-                    <a href="https://drive.google.com/file/d/1-NXYF2YnWBpx4Loum6xgJqVXcp7f0A5V/view?usp=sharing"
+                    <a href="https://drive.google.com/uc?id=1-NXYF2YnWBpx4Loum6xgJqVXcp7f0A5V&export=download"
                         class="btn btn-info">Resume</a>
                 </li>
             </ul>
@@ -31,152 +32,165 @@
 
     <main>
         <!-- banner -->
-        <section class="d-flex justify-content-evenly align-items-center mt-5 ">
-            <div>
-                <div class="banner-text">
-                    <h1>HI ! <br> I'M MANSOR AHMED</h1>
-                    <h3>Web Developer || React Developer || Programmer</h3>
-                    <p>I am an enthusiastic JavaScript developer with knowing some framework for the <br> frontend and
-                        the backend. I know Basic PHP and MySQL but basically a MERN <br> developer
-                    </p>
-                </div>
+        <section class="d-flex justify-content-center align-items-center mt-5 flex-column-reverse flex-md-row">
+            <div class="banner-text order-1 order-md-0">
+                <h1>HI ! <br> I'M MANSOR AHMED</h1>
+                <h3>Web Developer || React Developer || Programmer</h3>
+                <p>I am an enthusiastic JavaScript developer with knowing some framework for the <br> frontend and
+                    the backend. I know Basic PHP and MySQL but basically a MERN <br> developer
+                </p>
             </div>
 
-            <div>
+            <div class="order-0 order-md-1 text-center">
                 <img src="image/IMG-20250112-WA0005.jpg" alt=""
                     style="width: 400px; height: 550px; border-radius: 5px;">
             </div>
         </section>
+
         <!-- Portfolio -->
         <section class="portfolio">
             <h1 class="text-center">Portfolio</h1>
-            <div class="d-flex justify-content-center border border-1 p-4 mb-5 m-auto " style="width:fit-content">
-                <div>
-                    <img src="image/travel-guru-map.png" alt="" style="width: 600px; height: 350px;">
-                </div>
-                <div class="project">
-                    <h3>Online Shopping</h3>
-                    <h6 class="project-details">This is Travel service Agency website.user can <br>
-                        login via Facebook sign-in,Google Sign-in and <br>
-                        also Can Create an New Account for use the <br>
-                        services.user can Choice the service as he/she want. <br>
-                        User can Choice the perfect vehicle as he/she Want <br>
-                        user also can see his/her Current location <br>
-                        Firebase Authentication Used in this Website. <br>
-                        Uer Can Login via (Google,Facebook,Github)also <br>
-                        can Create Account.
-                    </h6>
-                    <div class="container row row-cols-4 gap-2">
-                        <p>React</p>
-                        <p>Firebase</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>Node</p>
+            <div class="d-flex justify-content-center border border-1 p-4 mb-5 m-auto" style="width:fit-content">
+                <div class="project-container">
+                    <div class="image-container">
+                        <img src="image/travel-guru-map.png" alt="Travel Guru Map" style="width: 600px; height: 350px;">
+                    </div>
+                    <div class="project">
+                        <h3>Online Shopping</h3>
+                        <h6 class="project-details">
+                            This is a Travel service Agency website. User can <br>
+                            login via Facebook sign-in, Google Sign-in, and <br>
+                            also can create a new account to use the <br>
+                            services. User can choose the service as they want. <br>
+                            User can choose the perfect vehicle as they want <br>
+                            and also can see their current location. <br>
+                            Firebase Authentication is used in this website. <br>
+                            User can log in via (Google, Facebook, Github) and <br>
+                            can create an account.
+                        </h6>
+                        <div class="container row row-cols-4 gap-2">
+                            <p>React</p>
+                            <p>Firebase</p>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Node</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-center border border-1 p-4 mb-5 m-auto " style="width:fit-content">
-                <div>
-                    <img src="image/travel-guru-map.png" alt="" style="width: 600px; height: 350px;">
-                </div>
-                <div class="project">
-                    <h3>Online Shopping</h3>
-                    <h6 class="project-details">This is Travel service Agency website.user can <br>
-                        login via Facebook sign-in,Google Sign-in and <br>
-                        also Can Create an New Account for use the <br>
-                        services.user can Choice the service as he/she want. <br>
-                        User can Choice the perfect vehicle as he/she Want <br>
-                        user also can see his/her Current location <br>
-                        Firebase Authentication Used in this Website. <br>
-                        Uer Can Login via (Google,Facebook,Github)also <br>
-                        can Create Account.
-                    </h6>
-                    <div class="container row row-cols-4 gap-2">
-                        <p>React</p>
-                        <p>Firebase</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>Node</p>
+            <div class="d-flex justify-content-center border border-1 p-4 mb-5 m-auto" style="width:fit-content">
+                <div class="project-container">
+                    <div class="image-container">
+                        <img src="image/travel-guru-map.png" alt="Travel Guru Map" style="width: 600px; height: 350px;">
+                    </div>
+                    <div class="project">
+                        <h3>Online Shopping</h3>
+                        <h6 class="project-details">
+                            This is a Travel service Agency website. User can <br>
+                            login via Facebook sign-in, Google Sign-in, and <br>
+                            also can create a new account to use the <br>
+                            services. User can choose the service as they want. <br>
+                            User can choose the perfect vehicle as they want <br>
+                            and also can see their current location. <br>
+                            Firebase Authentication is used in this website. <br>
+                            User can log in via (Google, Facebook, Github) and <br>
+                            can create an account.
+                        </h6>
+                        <div class="container row row-cols-4 gap-2">
+                            <p>React</p>
+                            <p>Firebase</p>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Node</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </section>
 
-        <section class="d-flex justify-content-center align-items-center">
-            <div class="education">
-                <h2>Expertise:</h2>
-                <div class="container row row-cols-4">
-                    <p>React.js</p>
-                    <p>JavaScript</p>
-                    <p>Node.js</p>
-                    <p>Firebase</p>
-                    <p>Express.js</p>
-                    <p>HTML</p>
-                    <p>Bootstrap</p>
-                    <p>MongoDB</p>
+        <!-- education -->
+        <section class="container mt-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <div class="education mb-4">
+                        <h2>Expertise:</h2>
+                        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+                            <p>React.js</p>
+                            <p>JavaScript</p>
+                            <p>Node.js</p>
+                            <p>Firebase</p>
+                            <p>Express.js</p>
+                            <p>HTML</p>
+                            <p>Bootstrap</p>
+                            <p>MongoDB</p>
+                        </div>
+                    </div>
+                    <div class="education mb-4">
+                        <h2>Comfortable:</h2>
+                        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+                            <p>SQL</p>
+                            <p>Redux</p>
+                            <p>AWS</p>
+                            <p>Docker</p>
+                            <p>Typescript</p>
+                            <p>Next.js</p>
+                        </div>
+                    </div>
+                    <div class="education mb-4">
+                        <h2>Familiar:</h2>
+                        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+                            <p>C</p>
+                            <p>C++</p>
+                            <p>Python</p>
+                            <p>Networking</p>
+                        </div>
+                    </div>
+                    <div class="education">
+                        <h2>Tools:</h2>
+                        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+                            <p>VS CODE</p>
+                            <p>Pycharm</p>
+                            <p>JIRA</p>
+                            <p>Trello</p>
+                            <p>Git</p>
+                            <p>Figma</p>
+                        </div>
+                    </div>
                 </div>
-                <h2>Comfortable:</h2>
-                <div class="container row row-cols-4">
-                    <p>SQL</p>
-                    <p>Redux</p>
-                    <p>AWS</p>
-                    <p>Docker</p>
-                    <p>Typescript</p>
-                    <p>Next.js</p>
+                <div class="col-lg-6 mb-4 education-text text-center">
+                    <h1>My Education</h1>
+                    <p>B.Sc In Software Engineering,<br> National University Dhaka, Bangladesh<br> 2020-2024</p>
                 </div>
-                <h2>Familiar:</h2>
-                <div class="container row row-cols-4">
-                    <p>C</p>
-                    <p>C++</p>
-                    <p>Python</p>
-                    <p>Networking</p>
-                </div>
-                <h2>Tools:</h2>
-                <div class="container row row-cols-4">
-                    <p>VS CODE</p>
-                    <p>Pycharm</p>
-                    <p>JIRA</p>
-                    <p>Trello</p>
-                    <p>Git</p>
-                    <p>Figma</p>
-                </div>
-            </div>
-
-            <div class="education-text">
-                <h1>My Education</h1>
-                <p class="text-center">B.Sc In Software Engineering,<br> National University Dhaka, Bangladesh <br>
-                    2020-2024
-                </p>
             </div>
         </section>
+
         <!-- contact -->
-        <section class="contact m-auto p-4 mt-5" style="width:fit-content">
-            <h1 class="text-center">Contact With ME</h1>
-            <form class="d-flex row m-auto form-container gap-3">
-                <input type="text" placeholder="Please Input Your Name">
-                <input type="text" placeholder="Please type your email">
-                <textarea name="desc" id="" placeholder="Please enter your message"></textarea>
+        <section class="contact container p-4 mt-5">
+            <h1 class="text-center">Contact With Me</h1>
+            <form class="row g-3">
+                <div class="col-12">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-12">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="col-12">
+                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-info btn-lg">Send</button>
+                </div>
             </form>
-            <div class="d-flex justify-content-center mt-3">
-                <button type="button" class="btn btn-info btn-lg">Send</button>
-            </div>
         </section>
-
-
-
-
     </main>
 
     <footer>
-        <div class="footer">
+        <div class="footer text-center">
             <h4>Copyright @ 2024 || Md Mansor</h4>
             <p>Dhaka, Bangladesh</p>
-
         </div>
     </footer>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
 </body>
 
 </html>
